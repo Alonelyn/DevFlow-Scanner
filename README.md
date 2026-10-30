@@ -19,9 +19,9 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.4.2.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.2.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.2.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.4.3.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.3.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.3.vsix`
 
 La versión Windows fue probada. Las compilaciones de macOS requieren validación final en una Mac real.
 
