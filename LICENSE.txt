@@ -1,0 +1,7 @@
+Copyright (c) 2026 Michael Castillo, UTP. Todos los derechos reservados.
+
+Se concede permiso gratuito para instalar y utilizar DevFlow Scanner con fines personales, educativos y académicos.
+
+No se permite vender, sublicenciar, modificar ni redistribuir versiones alteradas de la extensión sin autorización escrita del desarrollador.
+
+EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍAS EXPRESAS O IMPLÍCITAS. EL DESARROLLADOR NO SERÁ RESPONSABLE POR DAÑOS DERIVADOS DE SU USO.
