@@ -1,23 +1,24 @@
-# DevFlow Scanner 1.4.7 — 4 de noviembre de 2026
+# DevFlow Scanner 1.4.8 — 4 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
 
-- Corrige la pantalla azul vacía del panel en versiones recientes de VS Code/Electron.
-- Autoriza correctamente el ancestro interno `vscode-file:` requerido por el webview.
-- El motor continúa limitado a `127.0.0.1`; no se habilita acceso desde la red local.
-- Conserva todas las funciones de DevFlow Scanner 1.4.6 descritas a continuación.
-
-- Añade un Laboratorio HTTP amplio con Bearer JWT, cabeceras y cuerpo JSON.
-- Detecta tokens devueltos por un login y permite activarlos rápidamente para probar endpoints protegidos.
-- Permite recordar perfiles JWT opcionales mediante SecretStorage de Visual Studio Code.
-- Mejora **Flujo visual** con zoom, encuadre, tablas y notas movibles, conectores y código enfocado por endpoint.
-- Elimina la pared invisible del Board: las tablas y notas pueden moverse en todas las direcciones.
-- Añade Arquitectura plegable y un recorrido persistente con iluminación, sin mover automáticamente la pantalla.
-- Las tarjetas de Arquitectura ajustan rutas largas y aumentan su altura sin cortar el contenido.
-- Las notas conservan colores rápidos y añaden una paleta personalizada.
-- Conserva el acceso al Explorador, rutas separadas, temas, actualización desde GitHub y línea de tiempo.
-- Motor privado limitado a `127.0.0.1` y laboratorio HTTP limitado a localhost.
+- Añade distribución automática, cómoda y compacta según el espacio real disponible en VS Code.
+- Corrige desbordamientos horizontales en Arquitectura, Flujo visual y resoluciones pequeñas como 1366×768.
+- Reorganiza los controles de Arquitectura y coloca Línea de tiempo antes del Laboratorio HTTP.
+- Detecta el DTO utilizado por `@RequestBody`, sus campos y validaciones Spring.
+- Genera un ejemplo JSON específico para el endpoint seleccionado mediante **Usar ejemplo**.
+- Reconoce reglas como `@NotNull`, `@NotBlank`, `@NotEmpty`, `@Email`, `@Size`, `@Min`, `@Max` y `@Pattern`.
+- Explica errores HTTP comunes y propone correcciones para 400, 401, 403, 404, 409, 415, 422 y 500.
+- Conserva el Laboratorio HTTP con autorización Bearer JWT, captura del token de login y perfiles protegidos con SecretStorage.
+- Conserva el Board interactivo, notas, temas, rutas separadas y actualización desde GitHub.
+- El motor y las solicitudes del Laboratorio continúan limitados a `localhost`/`127.0.0.1`.
 - Firma: Michael Castillo, UTP.
 - Agradecimiento al docente: Johan Max Alexander Lopez Heredia.
 
-Windows x64 superó la prueba automática de comando, motor, panel y workspace. Las versiones de macOS se publican como preliminares hasta validarlas en una Mac real.
+## Verificación
+
+- Windows x64 superó la prueba automática de comando, motor, panel y workspace.
+- La cabecera `Authorization: Bearer …` fue verificada de extremo a extremo contra un backend local temporal.
+- El token no se almacena ni se muestra en la línea de tiempo.
+- El proyecto NEXUM fue analizado con 338 archivos y 148 endpoints; `POST /api/actividades` se relacionó correctamente con `ActividadRequest` y sus reglas.
+- Las compilaciones de macOS se publican como preliminares hasta validarlas en una Mac real.
