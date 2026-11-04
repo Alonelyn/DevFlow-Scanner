@@ -1,6 +1,11 @@
-# DevFlow Scanner 1.4.6 — 4 de noviembre de 2026
+# DevFlow Scanner 1.4.7 — 4 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
+
+- Corrige la pantalla azul vacía del panel en versiones recientes de VS Code/Electron.
+- Autoriza correctamente el ancestro interno `vscode-file:` requerido por el webview.
+- El motor continúa limitado a `127.0.0.1`; no se habilita acceso desde la red local.
+- Conserva todas las funciones de DevFlow Scanner 1.4.6 descritas a continuación.
 
 - Añade un Laboratorio HTTP amplio con Bearer JWT, cabeceras y cuerpo JSON.
 - Detecta tokens devueltos por un login y permite activarlos rápidamente para probar endpoints protegidos.
