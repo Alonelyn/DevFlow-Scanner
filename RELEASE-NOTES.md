@@ -1,14 +1,16 @@
-# DevFlow Scanner 1.4.3
+# DevFlow Scanner 1.4.5 — 3 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
 
-- El proyecto abierto queda identificado y aparece primero en la lista.
-- Acceso para abrir las rutas detectadas en el Explorador de archivos.
-- Mejoras en la visualización del código completo y en el panel lateral.
-- Mejoras de detección cuando frontend y backend están en carpetas separadas.
-- Temas y colores más consistentes en toda la interfaz.
-- Limpieza de la línea de tiempo y mejoras generales de estabilidad.
+- Corrige el error crítico que dejaba estáticos los menús después de escanear.
+- Corrige la detección del motor incluido para evitar el mensaje de incompatibilidad `win32-x64`.
+- Añade búsqueda automática y manual de actualizaciones desde GitHub.
+- Añade el panel interactivo **Flujo visual** para iluminar el recorrido del endpoint sin mover la pantalla.
+- Añade un icono propio de DevFlow en la extensión y dentro del scanner.
+- El proyecto abierto queda identificado como **ACTUAL** y aparece primero en la lista.
+- Conserva el acceso al Explorador, las rutas separadas de frontend/backend, los temas y la línea de tiempo.
 - Motor privado limitado a `127.0.0.1` y laboratorio HTTP limitado a localhost.
 - Firma: Michael Castillo, UTP.
+- Agradecimiento al docente: Johan Max Alexander Lopez Heredia.
 
-Windows x64 fue probado correctamente. Las versiones de macOS se publican como preliminares hasta validarlas en una Mac real.
+Windows x64 fue instalado y probado dentro de VS Code. Las versiones de macOS se publican como preliminares hasta validarlas en una Mac real.

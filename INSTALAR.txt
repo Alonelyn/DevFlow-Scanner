@@ -1,9 +1,9 @@
-DEVFLOW SCANNER 1.4.3 — EXTENSIÓN GRATUITA PARA VS CODE
+DEVFLOW SCANNER 1.4.5 — EXTENSIÓN GRATUITA PARA VS CODE
 
 ELIGE UN SOLO ARCHIVO
-- Windows 64 bits: DevFlow-Scanner-win32-x64-1.4.3.vsix
-- Mac Intel: DevFlow-Scanner-darwin-x64-1.4.3.vsix
-- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.4.3.vsix
+- Windows 64 bits: DevFlow-Scanner-win32-x64-1.4.5.vsix
+- Mac Intel: DevFlow-Scanner-darwin-x64-1.4.5.vsix
+- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.4.5.vsix
 
 INSTALACIÓN
 1. Abre Visual Studio Code.
@@ -14,10 +14,11 @@ INSTALACIÓN
 6. Pulsa "DevFlow" en la barra inferior o ejecuta "DevFlow: Abrir Scanner" desde la paleta de comandos.
 
 FUNCIONAMIENTO
-- Conserva el diseño y las funciones de DevFlow Scanner 1.4.3.
+- Conserva el diseño y las funciones de DevFlow Scanner 1.4.5.
 - Rellena automáticamente la carpeta abierta en VS Code.
 - Inicia un motor privado en 127.0.0.1:47831.
 - El laboratorio continúa limitado a localhost.
+- Busca actualizaciones publicadas en GitHub. También puedes ejecutar "DevFlow: Buscar actualizaciones en GitHub".
 - Si la aplicación de escritorio DevFlow está abierta con otra versión, ciérrala antes de abrir la extensión.
 
 VALIDACIÓN
@@ -25,3 +26,4 @@ VALIDACIÓN
 - Mac Intel/Apple Silicon: compilado de forma cruzada; requiere prueba final en una Mac real.
 
 Desarrollador: Michael Castillo, UTP
+Agradecimiento al docente: Johan Max Alexander Lopez Heredia
