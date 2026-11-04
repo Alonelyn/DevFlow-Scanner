@@ -10,8 +10,11 @@ Extensión visual educativa para comprender el recorrido de la información entr
 - Mapa visual de arquitectura.
 - Detección de llamadas frontend y endpoints Spring.
 - Visualización del archivo fuente completo.
-- Reproducción secuencial de endpoints.
-- Panel interactivo **Flujo visual** para iluminar el recorrido de cada endpoint.
+- Recorrido persistente de endpoints sin desplazar automáticamente la pantalla.
+- Panel interactivo **Flujo visual** para iluminar y estudiar cada recorrido.
+- Board con zoom, encuadre, tablas y notas movibles sin límites direccionales.
+- Notas con colores rápidos y selector de cualquier color.
+- Laboratorio HTTP con autorización Bearer JWT, cabeceras y cuerpo JSON.
 - Laboratorio HTTP limitado a `localhost`.
 - Línea de tiempo de solicitudes.
 - Temas claro/oscuro y personalización de color.
@@ -21,11 +24,11 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.4.5.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.5.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.5.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.4.6.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.6.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.6.vsix`
 
-La versión Windows fue probada. Las compilaciones de macOS requieren validación final en una Mac real.
+La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 
 ## Instalación
 

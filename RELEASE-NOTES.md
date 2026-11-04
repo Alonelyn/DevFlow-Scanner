@@ -1,16 +1,18 @@
-# DevFlow Scanner 1.4.5 — 3 de noviembre de 2026
+# DevFlow Scanner 1.4.6 — 4 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
 
-- Corrige el error crítico que dejaba estáticos los menús después de escanear.
-- Corrige la detección del motor incluido para evitar el mensaje de incompatibilidad `win32-x64`.
-- Añade búsqueda automática y manual de actualizaciones desde GitHub.
-- Añade el panel interactivo **Flujo visual** para iluminar el recorrido del endpoint sin mover la pantalla.
-- Añade un icono propio de DevFlow en la extensión y dentro del scanner.
-- El proyecto abierto queda identificado como **ACTUAL** y aparece primero en la lista.
-- Conserva el acceso al Explorador, las rutas separadas de frontend/backend, los temas y la línea de tiempo.
+- Añade un Laboratorio HTTP amplio con Bearer JWT, cabeceras y cuerpo JSON.
+- Detecta tokens devueltos por un login y permite activarlos rápidamente para probar endpoints protegidos.
+- Permite recordar perfiles JWT opcionales mediante SecretStorage de Visual Studio Code.
+- Mejora **Flujo visual** con zoom, encuadre, tablas y notas movibles, conectores y código enfocado por endpoint.
+- Elimina la pared invisible del Board: las tablas y notas pueden moverse en todas las direcciones.
+- Añade Arquitectura plegable y un recorrido persistente con iluminación, sin mover automáticamente la pantalla.
+- Las tarjetas de Arquitectura ajustan rutas largas y aumentan su altura sin cortar el contenido.
+- Las notas conservan colores rápidos y añaden una paleta personalizada.
+- Conserva el acceso al Explorador, rutas separadas, temas, actualización desde GitHub y línea de tiempo.
 - Motor privado limitado a `127.0.0.1` y laboratorio HTTP limitado a localhost.
 - Firma: Michael Castillo, UTP.
 - Agradecimiento al docente: Johan Max Alexander Lopez Heredia.
 
-Windows x64 fue instalado y probado dentro de VS Code. Las versiones de macOS se publican como preliminares hasta validarlas en una Mac real.
+Windows x64 superó la prueba automática de comando, motor, panel y workspace. Las versiones de macOS se publican como preliminares hasta validarlas en una Mac real.
