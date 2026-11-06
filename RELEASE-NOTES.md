@@ -1,6 +1,14 @@
-# DevFlow Scanner 1.4.10 — 6 de noviembre de 2026
+# DevFlow Scanner 1.4.11 — 6 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
+
+- Las configuraciones Spring Security con más de cinco reglas se presentan de forma resumida.
+- Añade los controles **Ver todas** y **Mostrar menos** sin penalizar proyectos pequeños.
+- Añade filtro instantáneo por método, ruta, rol, autoridad o archivo.
+- Añade **Modo privacidad** reversible: oculta rutas visibles en capturas sin modificar las rutas reales del análisis.
+- Añade **Rutas recientes** en el panel izquierdo para reabrir hasta ocho análisis unificados o separados y limpiar la lista cuando se desee.
+- El clic derecho abre una ruta reciente en el Explorador; para fuentes separadas permite elegir frontend o backend.
+- Incorpora capturas seguras de Arquitectura, reglas de seguridad, Laboratorio HTTP y Flujo visual.
 
 - Detecta IDs JPA autogenerados mediante `@GeneratedValue`.
 - Excluye campos generados por la base de datos de los ejemplos JSON de POST, PUT y PATCH.

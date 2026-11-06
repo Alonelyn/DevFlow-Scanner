@@ -1,9 +1,9 @@
-DEVFLOW SCANNER 1.4.10 — EXTENSIÓN GRATUITA PARA VS CODE
+DEVFLOW SCANNER 1.4.11 — EXTENSIÓN GRATUITA PARA VS CODE
 
 ELIGE UN SOLO ARCHIVO
-- Windows 64 bits: DevFlow-Scanner-win32-x64-1.4.10.vsix
-- Mac Intel: DevFlow-Scanner-darwin-x64-1.4.10.vsix
-- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.4.10.vsix
+- Windows 64 bits: DevFlow-Scanner-win32-x64-1.4.11.vsix
+- Mac Intel: DevFlow-Scanner-darwin-x64-1.4.11.vsix
+- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.4.11.vsix
 
 INSTALACIÓN
 1. Abre Visual Studio Code.
@@ -14,7 +14,10 @@ INSTALACIÓN
 6. Pulsa "DevFlow" en la barra inferior o ejecuta "DevFlow: Abrir Scanner" desde la paleta de comandos.
 
 FUNCIONAMIENTO
-- Añade diseño responsivo, guía automática de DTO/JSON y ayuda para corregir errores HTTP.
+- Añade reglas Spring Security plegables y filtrables para proyectos grandes.
+- Añade un modo de privacidad reversible para capturas y exposiciones.
+- Añade rutas recientes plegables en el panel izquierdo.
+- Conserva el diseño responsivo, la guía automática de DTO/JSON y la ayuda para corregir errores HTTP.
 - Conserva la autorización Bearer JWT y las funciones de DevFlow Scanner 1.4.7.
 - Rellena automáticamente la carpeta abierta en VS Code.
 - Inicia un motor privado en 127.0.0.1:47831.

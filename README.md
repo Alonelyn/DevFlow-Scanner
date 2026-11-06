@@ -24,14 +24,37 @@ Extensión visual educativa para comprender el recorrido de la información entr
 - Línea de tiempo de solicitudes.
 - Temas claro/oscuro y personalización de color.
 - Detección automática de actualizaciones publicadas en GitHub.
+- Modo privacidad reversible y rutas recientes plegables en el panel izquierdo.
+
+## Vista rápida de DevFlow 1.4.11
+
+### Arquitectura y Spring Security
+
+![Arquitectura y reglas Spring Security](docs/images/arquitectura-seguridad.png)
+
+### Modo privacidad y rutas recientes
+
+![Modo privacidad y rutas recientes](docs/images/privacidad-recientes.png)
+
+### Filtro para configuraciones con muchas reglas
+
+![Reglas de seguridad filtradas](docs/images/seguridad-filtrada.png)
+
+### Laboratorio HTTP
+
+![Laboratorio HTTP](docs/images/laboratorio-http.png)
+
+### Flujo visual y notas de aprendizaje
+
+![Flujo visual y notas](docs/images/flujo-visual-board.png)
 
 ## Descarga
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.4.10.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.10.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.10.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.4.11.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.11.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.11.vsix`
 
 La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 
