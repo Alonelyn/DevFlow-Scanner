@@ -1,6 +1,12 @@
-# DevFlow Scanner 1.4.8 — 4 de noviembre de 2026
+# DevFlow Scanner 1.4.9 — 5 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
+
+- Añade HTTP Basic y cabeceras personalizadas al Laboratorio HTTP.
+- Permite probar autenticación y autorización de Spring Security sin guardar contraseñas en el historial.
+- Detecta reglas por estructura de código, sin depender de nombres como `SecurityConfig.java`.
+- Reconoce `requestMatchers`, `anyRequest`, roles, autoridades, JWT/OAuth2, filtros, `STATELESS`, CSRF y anotaciones de seguridad.
+- Muestra mecanismo, requisito, ruta, archivo, línea, evidencia y nivel de certeza en Arquitectura.
 
 - Añade distribución automática, cómoda y compacta según el espacio real disponible en VS Code.
 - Corrige desbordamientos horizontales en Arquitectura, Flujo visual y resoluciones pequeñas como 1366×768.
