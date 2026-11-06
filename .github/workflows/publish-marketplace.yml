@@ -1,0 +1,48 @@
+name: Publicar VSIX en Marketplace
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Tag de GitHub Release que contiene los tres VSIX (ej. v1.4.9)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Publicar paquetes por sistema operativo
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Descargar VSIX de la Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: |
+          mkdir -p packages
+          gh release download "$RELEASE_TAG" \
+            --repo "${{ github.repository }}" \
+            --dir packages \
+            --pattern "DevFlow-Scanner-win32-x64-*.vsix" \
+            --pattern "DevFlow-Scanner-darwin-x64-*.vsix" \
+            --pattern "DevFlow-Scanner-darwin-arm64-*.vsix"
+          test "$(find packages -maxdepth 1 -name '*.vsix' | wc -l)" -eq 3
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publicar Windows x64
+        run: npx --yes @vscode/vsce@4.1.0 publish --oidc --skip-duplicate --packagePath "$(find packages -name 'DevFlow-Scanner-win32-x64-*.vsix' -print -quit)"
+
+      - name: Publicar macOS Intel
+        run: npx --yes @vscode/vsce@4.1.0 publish --oidc --skip-duplicate --packagePath "$(find packages -name 'DevFlow-Scanner-darwin-x64-*.vsix' -print -quit)"
+
+      - name: Publicar macOS Apple Silicon
+        run: npx --yes @vscode/vsce@4.1.0 publish --oidc --skip-duplicate --packagePath "$(find packages -name 'DevFlow-Scanner-darwin-arm64-*.vsix' -print -quit)"
