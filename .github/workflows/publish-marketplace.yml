@@ -1,10 +1,12 @@
 name: Publicar VSIX en Marketplace
 
 on:
+  release:
+    types: [published]
   workflow_dispatch:
     inputs:
       release_tag:
-        description: "Tag de GitHub Release que contiene los tres VSIX (ej. v1.4.9)"
+        description: "Tag de GitHub Release que contiene los tres VSIX (ej. v1.4.10)"
         required: true
         type: string
 
@@ -22,7 +24,7 @@ jobs:
       - name: Descargar VSIX de la Release
         env:
           GH_TOKEN: ${{ github.token }}
-          RELEASE_TAG: ${{ inputs.release_tag }}
+          RELEASE_TAG: ${{ github.event.release.tag_name || inputs.release_tag }}
         run: |
           mkdir -p packages
           gh release download "$RELEASE_TAG" \

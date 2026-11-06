@@ -17,6 +17,7 @@ Extensión visual educativa para comprender el recorrido de la información entr
 - Laboratorio HTTP con autorización Bearer JWT, cabeceras y cuerpo JSON.
 - Autenticación HTTP Basic y editor de cabeceras personalizadas.
 - Análisis educativo de reglas Spring Security, roles, mecanismos y evidencia del código.
+- Detección de `@GeneratedValue` y exclusión de IDs autogenerados en los ejemplos de solicitud.
 - Guía automática de DTO, campos requeridos, validaciones y ejemplos JSON para endpoints Spring.
 - Explicaciones prácticas para errores HTTP comunes, incluidos 400, 401, 403, 404, 415 y 500.
 - Laboratorio HTTP limitado a `localhost`.
@@ -28,9 +29,9 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.4.9.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.9.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.9.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.4.10.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.10.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.10.vsix`
 
 La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 

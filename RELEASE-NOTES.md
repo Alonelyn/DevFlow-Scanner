@@ -1,6 +1,11 @@
-# DevFlow Scanner 1.4.9 — 5 de noviembre de 2026
+# DevFlow Scanner 1.4.10 — 6 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
+
+- Detecta IDs JPA autogenerados mediante `@GeneratedValue`.
+- Excluye campos generados por la base de datos de los ejemplos JSON de POST, PUT y PATCH.
+- Muestra esos campos como autogenerados en la guía del cuerpo y no los considera obligatorios.
+- Activa la publicación automática en Marketplace al publicar una GitHub Release con los tres paquetes.
 
 - Añade HTTP Basic y cabeceras personalizadas al Laboratorio HTTP.
 - Permite probar autenticación y autorización de Spring Security sin guardar contraseñas en el historial.
