@@ -25,8 +25,20 @@ Extensión visual educativa para comprender el recorrido de la información entr
 - Temas claro/oscuro y personalización de color.
 - Detección automática de actualizaciones publicadas en GitHub.
 - Modo privacidad reversible y rutas recientes plegables en el panel izquierdo.
+- Revisión de repositorios públicos de GitHub antes de clonarlos.
+- Selector de ramas para previsualizar y clonar exactamente la rama elegida.
+- Lectura educativa inicial de archivos PHP y rutas Laravel.
 
-## Vista rápida de DevFlow 1.4.11
+## Novedades de DevFlow 1.5.0
+
+- Verifica una URL pública de GitHub y muestra su árbol de archivos sin modificar el repositorio.
+- Detecta hasta 1000 ramas y permite cambiar la vista previa entre ellas.
+- Clona únicamente la rama elegida en una carpeta seleccionada desde VS Code.
+- Después de clonar, abre la ruta como proyecto local y habilita Arquitectura, Flujo visual, Línea de tiempo y Laboratorio HTTP.
+- Corrige la reactivación de la iluminación del Board con el mismo botón.
+- Añade soporte inicial para PHP y Laravel.
+
+## Vista rápida de DevFlow
 
 ### Arquitectura y Spring Security
 
@@ -52,9 +64,9 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.4.11.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.4.11.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.4.11.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.5.0.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.0.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.0.vsix`
 
 La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 
@@ -62,6 +74,6 @@ La versión Windows superó la prueba automática del paquete. Las compilaciones
 
 En VS Code abre **Extensiones → … → Instalar desde VSIX...** y selecciona el archivo descargado. Después ejecuta **DevFlow: Abrir Scanner** o pulsa **DevFlow** en la barra de estado. Para comprobar manualmente una versión nueva usa **DevFlow: Buscar actualizaciones en GitHub**.
 
-Desarrollador: **Michael Castillo, UTP**
+Desarrollador: **Michael Castillo**
 
 Agradecimiento al docente: **Johan Max Alexander Lopez Heredia**

@@ -1,6 +1,13 @@
-# DevFlow Scanner 1.4.11 — 6 de noviembre de 2026
+# DevFlow Scanner 1.5.0 — 9 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
+
+- Añade revisión de repositorios públicos de GitHub sin modificar su contenido.
+- Lista las ramas disponibles y permite elegir cuál previsualizar.
+- La clonación asistida descarga exactamente la rama seleccionada y continúa como proyecto local.
+- Añade historial local de repositorios revisados.
+- Corrige la reactivación de la iluminación persistente en DevFlow Board.
+- Añade lectura educativa inicial de PHP y rutas Laravel.
 
 - Las configuraciones Spring Security con más de cinco reglas se presentan de forma resumida.
 - Añade los controles **Ver todas** y **Mostrar menos** sin penalizar proyectos pequeños.
