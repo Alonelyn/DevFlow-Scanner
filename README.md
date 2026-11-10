@@ -29,6 +29,15 @@ Extensión visual educativa para comprender el recorrido de la información entr
 - Selector de ramas para previsualizar y clonar exactamente la rama elegida.
 - Lectura educativa inicial de archivos PHP y rutas Laravel.
 
+## Novedades de DevFlow 1.5.1
+
+- Muestra la identidad activa durante las pruebas del Laboratorio HTTP.
+- Relaciona usuarios HTTP Basic declarados en Spring Security con sus roles estáticos.
+- Mantiene visible `Usuario` y `Rol` al trabajar en Autorización, Cabeceras o Cuerpo JSON.
+- Informa `Rol: No confirmado` cuando los permisos proceden dinámicamente de una base de datos.
+- Extrae la identidad y los roles declarados dentro de JWT sin afirmar que su firma fue validada.
+- Nunca muestra ni almacena las contraseñas analizadas.
+
 ## Novedades de DevFlow 1.5.0
 
 - Verifica una URL pública de GitHub y muestra su árbol de archivos sin modificar el repositorio.
@@ -64,9 +73,9 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.5.0.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.0.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.0.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.5.1.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.1.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.1.vsix`
 
 La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 

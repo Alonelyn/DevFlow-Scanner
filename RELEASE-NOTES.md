@@ -1,6 +1,13 @@
-# DevFlow Scanner 1.5.0 — 9 de noviembre de 2026
+# DevFlow Scanner 1.5.1 — 10 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
+
+- Muestra la identidad HTTP activa mientras se prepara una solicitud.
+- Relaciona usuarios HTTP Basic definidos estáticamente en Spring Security con sus roles.
+- Mantiene visibles usuario y rol al trabajar con el cuerpo JSON.
+- Indica claramente cuando un rol no puede confirmarse porque procede de una fuente dinámica.
+- Lee usuario, roles y autoridades declarados en un JWT sin validar localmente su firma.
+- Las contraseñas y secretos permanecen fuera del análisis y de la línea de tiempo.
 
 - Añade revisión de repositorios públicos de GitHub sin modificar su contenido.
 - Lista las ramas disponibles y permite elegir cuál previsualizar.
