@@ -1,24 +1,18 @@
-# DevFlow Scanner 1.5.2 — 12 de noviembre de 2026
+# DevFlow Scanner 1.5.3 — 12 de noviembre de 2026
 
-Actualización gratuita de la extensión para Visual Studio Code.
+Parche gratuito de experiencia de uso para Visual Studio Code.
 
-## Buscador compacto de endpoints
+## Correcciones
 
-- Filtra por método HTTP, ruta, controller, capa o rol sin ocupar una segunda fila permanente.
-- Agrupa los resultados por controller y permite navegar con las flechas, seleccionar con Enter y cerrar con Escape.
-- Conserva la iluminación del recorrido cuando el usuario filtra o cambia de endpoint.
-- Mejora el espaciado tipográfico y la adaptación a distintos anchos de VS Code.
-
-## Laboratorio HTTP y experiencia visual
-
-- Añade estados de carga y una capa de animaciones opcional que no bloquea la interfaz.
-- Refuerza los diagnósticos educativos de solicitudes correctas, credenciales rechazadas y rutas inexistentes.
-- Mantiene visible la respuesta JSON real para preparar al alumno para entornos profesionales.
+- El buscador compacto de endpoints permanece por encima de Spring Security, tablas y cartillas de arquitectura.
+- El menú conserva su altura, filtros y navegación sin quedar oculto por secciones posteriores.
+- Pulsar el ícono de DevFlow en la barra lateral abre directamente el scanner en el editor.
+- La barra lateral se cierra después de abrir DevFlow para devolver el espacio al proyecto.
+- Se conservan el acceso desde la barra de estado y los comandos de la paleta.
 
 ## Verificación
 
-- NEXUM fue analizado con 338 archivos y 148 endpoints; se verificaron filtros por rol y método.
-- El recorrido iluminado permaneció activo al cambiar el endpoint desde el buscador.
-- El Laboratorio fue probado con respuestas HTTP 200, 401 y 404.
-- Windows x64 superó la prueba automática de comando, motor, panel y workspace.
-- Las compilaciones de macOS se publican como preliminares hasta validarlas en una Mac real.
+- Se analizó NEXUM con 338 archivos y 148 endpoints.
+- El buscador fue abierto sobre 65 reglas de Spring Security y permaneció en primer plano.
+- La prueba automática verificó el acceso lateral directo, el motor, el panel y el workspace.
+- Windows x64 fue probado localmente; los paquetes de macOS continúan como compilaciones cruzadas preliminares.

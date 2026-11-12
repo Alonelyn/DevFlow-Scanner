@@ -29,6 +29,12 @@ Extensión visual educativa para comprender el recorrido de la información entr
 - Selector de ramas para previsualizar y clonar exactamente la rama elegida.
 - Lectura educativa inicial de archivos PHP y rutas Laravel.
 
+## Novedades de DevFlow 1.5.3
+
+- Corrige la superposición del buscador de endpoints sobre Spring Security y las cartillas de arquitectura.
+- El ícono lateral abre DevFlow directamente con un solo clic.
+- La barra lateral se libera automáticamente después de mostrar el panel principal.
+
 ## Novedades de DevFlow 1.5.2
 
 - Añade un buscador compacto para filtrar endpoints por método, ruta, componente o rol.
@@ -82,9 +88,9 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.5.2.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.2.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.2.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.5.3.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.3.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.3.vsix`
 
 La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 
