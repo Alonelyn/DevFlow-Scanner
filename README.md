@@ -29,6 +29,15 @@ Extensión visual educativa para comprender el recorrido de la información entr
 - Selector de ramas para previsualizar y clonar exactamente la rama elegida.
 - Lectura educativa inicial de archivos PHP y rutas Laravel.
 
+## Novedades de DevFlow 1.5.2
+
+- Añade un buscador compacto para filtrar endpoints por método, ruta, componente o rol.
+- Permite navegar y seleccionar resultados con el teclado, agrupados por controller.
+- Mantiene activa la iluminación del recorrido al filtrar o cambiar de endpoint.
+- Mejora el espaciado y la adaptación a distintos anchos de VS Code.
+- Añade estados de carga y una capa de animaciones opcional sin bloquear la interfaz.
+- Refuerza los diagnósticos educativos para respuestas HTTP correctas, 401 y 404.
+
 ## Novedades de DevFlow 1.5.1
 
 - Muestra la identidad activa durante las pruebas del Laboratorio HTTP.
@@ -73,9 +82,9 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 Descarga el archivo correspondiente desde la sección **Releases**:
 
-- Windows x64: `DevFlow-Scanner-win32-x64-1.5.1.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.1.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.1.vsix`
+- Windows x64: `DevFlow-Scanner-win32-x64-1.5.2.vsix`
+- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.2.vsix`
+- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.2.vsix`
 
 La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 

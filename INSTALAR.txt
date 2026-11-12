@@ -1,9 +1,9 @@
-DEVFLOW SCANNER 1.4.11 — EXTENSIÓN GRATUITA PARA VS CODE
+DEVFLOW SCANNER 1.5.2 — EXTENSIÓN GRATUITA PARA VS CODE
 
 ELIGE UN SOLO ARCHIVO
-- Windows 64 bits: DevFlow-Scanner-win32-x64-1.4.11.vsix
-- Mac Intel: DevFlow-Scanner-darwin-x64-1.4.11.vsix
-- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.4.11.vsix
+- Windows 64 bits: DevFlow-Scanner-win32-x64-1.5.2.vsix
+- Mac Intel: DevFlow-Scanner-darwin-x64-1.5.2.vsix
+- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.5.2.vsix
 
 INSTALACIÓN
 1. Abre Visual Studio Code.
@@ -13,21 +13,15 @@ INSTALACIÓN
 5. Abre una carpeta de proyecto y confía en el workspace.
 6. Pulsa "DevFlow" en la barra inferior o ejecuta "DevFlow: Abrir Scanner" desde la paleta de comandos.
 
-FUNCIONAMIENTO
-- Añade reglas Spring Security plegables y filtrables para proyectos grandes.
-- Añade un modo de privacidad reversible para capturas y exposiciones.
-- Añade rutas recientes plegables en el panel izquierdo.
-- Conserva el diseño responsivo, la guía automática de DTO/JSON y la ayuda para corregir errores HTTP.
-- Conserva la autorización Bearer JWT y las funciones de DevFlow Scanner 1.4.7.
-- Rellena automáticamente la carpeta abierta en VS Code.
-- Inicia un motor privado en 127.0.0.1:47831.
-- El laboratorio continúa limitado a localhost.
-- Busca actualizaciones publicadas en GitHub. También puedes ejecutar "DevFlow: Buscar actualizaciones en GitHub".
-- Si la aplicación de escritorio DevFlow está abierta con otra versión, ciérrala antes de abrir la extensión.
+NOVEDADES
+- Buscador compacto de endpoints por método, ruta, componente o rol.
+- Navegación por teclado y agrupación por controller.
+- La iluminación del recorrido se conserva al filtrar o cambiar de endpoint.
+- Mejor espaciado y adaptación responsiva para proyectos grandes.
+- Diagnósticos mejorados del Laboratorio HTTP.
 
 VALIDACIÓN
 - Windows x64: instalado y probado correctamente.
 - Mac Intel/Apple Silicon: compilado de forma cruzada; requiere prueba final en una Mac real.
 
-Desarrollador: Michael Castillo, UTP
-Agradecimiento al docente: Johan Max Alexander Lopez Heredia
+Desarrollador: Michael Castillo

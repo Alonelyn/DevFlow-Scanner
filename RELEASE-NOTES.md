@@ -1,57 +1,24 @@
-# DevFlow Scanner 1.5.1 — 10 de noviembre de 2026
+# DevFlow Scanner 1.5.2 — 12 de noviembre de 2026
 
 Actualización gratuita de la extensión para Visual Studio Code.
 
-- Muestra la identidad HTTP activa mientras se prepara una solicitud.
-- Relaciona usuarios HTTP Basic definidos estáticamente en Spring Security con sus roles.
-- Mantiene visibles usuario y rol al trabajar con el cuerpo JSON.
-- Indica claramente cuando un rol no puede confirmarse porque procede de una fuente dinámica.
-- Lee usuario, roles y autoridades declarados en un JWT sin validar localmente su firma.
-- Las contraseñas y secretos permanecen fuera del análisis y de la línea de tiempo.
+## Buscador compacto de endpoints
 
-- Añade revisión de repositorios públicos de GitHub sin modificar su contenido.
-- Lista las ramas disponibles y permite elegir cuál previsualizar.
-- La clonación asistida descarga exactamente la rama seleccionada y continúa como proyecto local.
-- Añade historial local de repositorios revisados.
-- Corrige la reactivación de la iluminación persistente en DevFlow Board.
-- Añade lectura educativa inicial de PHP y rutas Laravel.
+- Filtra por método HTTP, ruta, controller, capa o rol sin ocupar una segunda fila permanente.
+- Agrupa los resultados por controller y permite navegar con las flechas, seleccionar con Enter y cerrar con Escape.
+- Conserva la iluminación del recorrido cuando el usuario filtra o cambia de endpoint.
+- Mejora el espaciado tipográfico y la adaptación a distintos anchos de VS Code.
 
-- Las configuraciones Spring Security con más de cinco reglas se presentan de forma resumida.
-- Añade los controles **Ver todas** y **Mostrar menos** sin penalizar proyectos pequeños.
-- Añade filtro instantáneo por método, ruta, rol, autoridad o archivo.
-- Añade **Modo privacidad** reversible: oculta rutas visibles en capturas sin modificar las rutas reales del análisis.
-- Añade **Rutas recientes** en el panel izquierdo para reabrir hasta ocho análisis unificados o separados y limpiar la lista cuando se desee.
-- El clic derecho abre una ruta reciente en el Explorador; para fuentes separadas permite elegir frontend o backend.
-- Incorpora capturas seguras de Arquitectura, reglas de seguridad, Laboratorio HTTP y Flujo visual.
+## Laboratorio HTTP y experiencia visual
 
-- Detecta IDs JPA autogenerados mediante `@GeneratedValue`.
-- Excluye campos generados por la base de datos de los ejemplos JSON de POST, PUT y PATCH.
-- Muestra esos campos como autogenerados en la guía del cuerpo y no los considera obligatorios.
-- Activa la publicación automática en Marketplace al publicar una GitHub Release con los tres paquetes.
-
-- Añade HTTP Basic y cabeceras personalizadas al Laboratorio HTTP.
-- Permite probar autenticación y autorización de Spring Security sin guardar contraseñas en el historial.
-- Detecta reglas por estructura de código, sin depender de nombres como `SecurityConfig.java`.
-- Reconoce `requestMatchers`, `anyRequest`, roles, autoridades, JWT/OAuth2, filtros, `STATELESS`, CSRF y anotaciones de seguridad.
-- Muestra mecanismo, requisito, ruta, archivo, línea, evidencia y nivel de certeza en Arquitectura.
-
-- Añade distribución automática, cómoda y compacta según el espacio real disponible en VS Code.
-- Corrige desbordamientos horizontales en Arquitectura, Flujo visual y resoluciones pequeñas como 1366×768.
-- Reorganiza los controles de Arquitectura y coloca Línea de tiempo antes del Laboratorio HTTP.
-- Detecta el DTO utilizado por `@RequestBody`, sus campos y validaciones Spring.
-- Genera un ejemplo JSON específico para el endpoint seleccionado mediante **Usar ejemplo**.
-- Reconoce reglas como `@NotNull`, `@NotBlank`, `@NotEmpty`, `@Email`, `@Size`, `@Min`, `@Max` y `@Pattern`.
-- Explica errores HTTP comunes y propone correcciones para 400, 401, 403, 404, 409, 415, 422 y 500.
-- Conserva el Laboratorio HTTP con autorización Bearer JWT, captura del token de login y perfiles protegidos con SecretStorage.
-- Conserva el Board interactivo, notas, temas, rutas separadas y actualización desde GitHub.
-- El motor y las solicitudes del Laboratorio continúan limitados a `localhost`/`127.0.0.1`.
-- Firma: Michael Castillo, UTP.
-- Agradecimiento al docente: Johan Max Alexander Lopez Heredia.
+- Añade estados de carga y una capa de animaciones opcional que no bloquea la interfaz.
+- Refuerza los diagnósticos educativos de solicitudes correctas, credenciales rechazadas y rutas inexistentes.
+- Mantiene visible la respuesta JSON real para preparar al alumno para entornos profesionales.
 
 ## Verificación
 
+- NEXUM fue analizado con 338 archivos y 148 endpoints; se verificaron filtros por rol y método.
+- El recorrido iluminado permaneció activo al cambiar el endpoint desde el buscador.
+- El Laboratorio fue probado con respuestas HTTP 200, 401 y 404.
 - Windows x64 superó la prueba automática de comando, motor, panel y workspace.
-- La cabecera `Authorization: Bearer …` fue verificada de extremo a extremo contra un backend local temporal.
-- El token no se almacena ni se muestra en la línea de tiempo.
-- El proyecto NEXUM fue analizado con 338 archivos y 148 endpoints; `POST /api/actividades` se relacionó correctamente con `ActividadRequest` y sus reglas.
 - Las compilaciones de macOS se publican como preliminares hasta validarlas en una Mac real.
