@@ -1,9 +1,9 @@
-DEVFLOW SCANNER 1.5.3 — EXTENSIÓN GRATUITA PARA VS CODE
+DEVFLOW SCANNER 1.5.4 — EXTENSIÓN GRATUITA PARA VS CODE
 
 ELIGE UN SOLO ARCHIVO
-- Windows 64 bits: DevFlow-Scanner-win32-x64-1.5.3.vsix
-- Mac Intel: DevFlow-Scanner-darwin-x64-1.5.3.vsix
-- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.5.3.vsix
+- Windows 64 bits: DevFlow-Scanner-win32-x64-1.5.4.vsix
+- Mac Intel: DevFlow-Scanner-darwin-x64-1.5.4.vsix
+- Mac Apple Silicon M1/M2/M3/M4: DevFlow-Scanner-darwin-arm64-1.5.4.vsix
 
 INSTALACIÓN
 1. Abre Visual Studio Code.
@@ -13,10 +13,10 @@ INSTALACIÓN
 5. Abre una carpeta de proyecto y confía en el workspace.
 6. Pulsa el ícono lateral de DevFlow para abrir directamente el scanner.
 
-CORRECCIONES
-- El buscador de endpoints se muestra sobre las cartillas y paneles inferiores.
-- El ícono lateral abre DevFlow con un solo clic.
-- La barra lateral se libera automáticamente después de abrir el panel.
+NOVEDADES
+- Buscador avanzado disponible en todos los proyectos con endpoints.
+- Filtros por método, ruta, componente y rol sin importar el tamaño del proyecto.
+- Menú en primer plano, altura controlada y acceso lateral de un clic.
 
 VALIDACIÓN
 - Windows x64: instalado y probado correctamente.
