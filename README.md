@@ -8,6 +8,15 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 DevFlow 2.0 reemplaza los tres motores nativos por un motor TypeScript/Node.js incluido en VS Code. El mismo VSIX funciona en Windows x64, macOS Intel y macOS Apple Silicon, sin instalar .NET y conservando las funciones de la versión 1.5.4.
 
+## Novedades de DevFlow 2.0.1
+
+- Evita confundir el puerto interno de DevFlow con el puerto real del backend.
+- Detecta barras dobles, barras finales y rutas mal formadas antes de enviar la solicitud.
+- Conserva la arquitectura, la ruta y la sesión al volver a abrir DevFlow desde su icono.
+- Añade formateo del cuerpo JSON mediante botón o `Ctrl/Cmd + Shift + F`.
+- Comprueba cambios del proyecto cada cinco segundos sin refrescar la pestaña ni interrumpir el trabajo; el usuario decide cuándo aplicarlos.
+- Permite quitar una ruta individual del historial con clic derecho, sin borrar su carpeta ni modificar archivos.
+
 ## Funciones
 
 - Detección de proyectos y servidores locales.

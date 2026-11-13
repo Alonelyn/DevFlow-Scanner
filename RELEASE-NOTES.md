@@ -1,4 +1,17 @@
-# DevFlow Scanner 1.5.4 — 12 de noviembre de 2026
+# DevFlow Scanner 2.0.1 — 12 de noviembre de 2026
+
+Parche de estabilidad y usabilidad del motor universal.
+
+- Selecciona el puerto real del backend y excluye el puerto interno de DevFlow.
+- Advierte errores de escritura en la URL antes de confundirlos con fallos de permisos.
+- Mantiene la sesión al ocultar y volver a abrir el panel.
+- Formatea el cuerpo JSON del Laboratorio HTTP.
+- Detecta cambios cada cinco segundos sin recargar la interfaz y ofrece aplicarlos manualmente.
+- Incorpora `Quitar del historial` en el menú contextual de rutas recientes; nunca elimina la carpeta del equipo.
+
+Validación: 33/33 pruebas del motor, análisis real de Basic Auth, JWT, NEXUM y PHP, más prueba de activación y reapertura dentro de VS Code.
+
+## DevFlow Scanner 1.5.4 — 12 de noviembre de 2026
 
 Actualización gratuita de consistencia para Visual Studio Code.
 
