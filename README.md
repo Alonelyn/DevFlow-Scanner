@@ -4,6 +4,10 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 `Frontend → Controller → Service → Repository → Model`
 
+## DevFlow 2.0: un solo motor universal
+
+DevFlow 2.0 reemplaza los tres motores nativos por un motor TypeScript/Node.js incluido en VS Code. El mismo VSIX funciona en Windows x64, macOS Intel y macOS Apple Silicon, sin instalar .NET y conservando las funciones de la versión 1.5.4.
+
 ## Funciones
 
 - Detección de proyectos y servidores locales.
@@ -92,11 +96,7 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 ## Descarga
 
-Descarga el archivo correspondiente desde la sección **Releases**:
-
-- Windows x64: `DevFlow-Scanner-win32-x64-1.5.4.vsix`
-- Mac Apple Silicon: `DevFlow-Scanner-darwin-arm64-1.5.4.vsix`
-- Mac Intel: `DevFlow-Scanner-darwin-x64-1.5.4.vsix`
+Descarga `DevFlow-Scanner-2.0.0.vsix` desde **Releases**. Es el mismo archivo para Windows x64, Mac Intel y Mac Apple Silicon.
 
 La versión Windows superó la prueba automática del paquete. Las compilaciones de macOS requieren validación final en una Mac real.
 

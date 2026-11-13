@@ -19,3 +19,10 @@ Actualización gratuita de consistencia para Visual Studio Code.
 - Se comprobó el buscador con NEXUM: 338 archivos y 148 endpoints.
 - La prueba automática verificó el acceso lateral directo, el motor, el panel y el workspace.
 - Windows x64 fue probado localmente; macOS Intel y Apple Silicon son compilaciones cruzadas preliminares.
+## DevFlow Scanner 2.0.0
+
+- Motor universal TypeScript/Node.js: ya no requiere .NET.
+- Un único VSIX para Windows x64, macOS Intel y macOS Apple Silicon.
+- Conserva análisis Java/Spring, Spring Security, JPA, frontend, PHP, GitHub, Board y Laboratorio HTTP.
+- Validación automática en VS Code real sobre las tres plataformas antes de publicar.
+- Paquete reducido de más de 100 MB a menos de 1 MB.
