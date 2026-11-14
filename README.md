@@ -8,6 +8,14 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 DevFlow 2.0 reemplaza los tres motores nativos por un motor TypeScript/Node.js incluido en VS Code. El mismo VSIX funciona en Windows x64, macOS Intel y macOS Apple Silicon, sin instalar .NET y conservando las funciones de la versión 1.5.4.
 
+## Novedades de DevFlow 2.0.2
+
+- Incorpora **Backend Workspace** como vista alternativa sin retirar el Laboratorio HTTP clásico.
+- Presenta los endpoints detectados por controller, método y regla de acceso para reducir clics durante las pruebas.
+- Integra un editor JSON con formato, colores y números de línea.
+- Detecta errores de digitación cercanos en cualquier endpoint del mismo método; por ejemplo, `/api/clentes` puede sugerir `/api/clientes`.
+- Corrige el fallo interno que aparecía al verificar JWT o Basic Auth con una ruta no reconocida.
+
 ## Novedades de DevFlow 2.0.1
 
 - Evita confundir el puerto interno de DevFlow con el puerto real del backend.

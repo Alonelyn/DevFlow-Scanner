@@ -1,4 +1,18 @@
-# DevFlow Scanner 2.0.1 — 12 de noviembre de 2026
+# DevFlow Scanner 2.0.2 — 14 de noviembre de 2026
+
+Actualización oficial del Laboratorio HTTP enfocada en aprendizaje y diagnóstico.
+
+- Añade **Backend Workspace** como vista opcional y conserva la vista clásica.
+- Agrupa y filtra endpoints detectados por controller y método.
+- Mantiene JWT, Basic Auth, cabeceras, ejemplos y explicaciones HTTP existentes.
+- Integra CodeMirror para editar y formatear JSON con mayor claridad.
+- Detecta preventivamente rutas parecidas ante letras omitidas, adicionales o sustituidas.
+- Sugiere el endpoint correcto sin depender de nombres fijos como `clientes`.
+- Corrige `Cannot read properties of null (reading 'method')` cuando la URL no coincide con el análisis.
+
+Validación: pruebas de HTTP, seguridad, redacción, DTO, JPA, frontend, Spring Security, activación del host y empaquetado universal.
+
+## DevFlow Scanner 2.0.1 — 12 de noviembre de 2026
 
 Parche de estabilidad y usabilidad del motor universal.
 
