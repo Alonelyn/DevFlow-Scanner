@@ -1,4 +1,16 @@
-# DevFlow Scanner 2.0.2 — 14 de noviembre de 2026
+# DevFlow Scanner 2.0.3 — 19 de noviembre de 2026
+
+Parche de actualización automática y continuidad de sesión.
+
+- Detecta cambios del backend o frontend cada cinco segundos y ejecuta un nuevo análisis en memoria.
+- Actualiza endpoints, componentes, reglas Spring Security y roles sin pulsar **Analizar arquitectura**.
+- Conserva URL, JSON, cabeceras, autenticación, pestaña activa y desplazamiento del Laboratorio.
+- Conserva un botón de reintento manual si un archivo se encuentra incompleto mientras se escribe.
+- Retira la referencia institucional de la licencia y mantiene la autoría personal.
+
+Validación: cambio real de `SecurityConfig.java`, incorporación automática de SUPPORT en GET y nueva regla PUT, pruebas de backend, UI, sintaxis y empaquetado universal.
+
+## DevFlow Scanner 2.0.2 — 14 de noviembre de 2026
 
 Actualización oficial del Laboratorio HTTP enfocada en aprendizaje y diagnóstico.
 

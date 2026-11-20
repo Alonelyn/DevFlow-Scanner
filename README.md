@@ -8,6 +8,12 @@ Extensión visual educativa para comprender el recorrido de la información entr
 
 DevFlow 2.0 reemplaza los tres motores nativos por un motor TypeScript/Node.js incluido en VS Code. El mismo VSIX funciona en Windows x64, macOS Intel y macOS Apple Silicon, sin instalar .NET y conservando las funciones de la versión 1.5.4.
 
+## Novedades de DevFlow 2.0.3
+
+- Reanaliza automáticamente el backend y el frontend al guardar cambios, sin reiniciar la vista ni pulsar de nuevo **Analizar arquitectura**.
+- Actualiza endpoints, reglas Spring Security, roles y componentes conservando la solicitud que estés preparando.
+- Mantiene un reintento manual si el proyecto está temporalmente incompleto durante la escritura.
+
 ## Novedades de DevFlow 2.0.2
 
 - Incorpora **Backend Workspace** como vista alternativa sin retirar el Laboratorio HTTP clásico.
