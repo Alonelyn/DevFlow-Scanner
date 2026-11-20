@@ -1,4 +1,4 @@
-Copyright (c) 2026 Michael Castillo, UTP. Todos los derechos reservados.
+Copyright (c) 2026 Michael Castillo. Todos los derechos reservados.
 
 Se concede permiso gratuito para instalar y utilizar DevFlow Scanner con fines personales, educativos y académicos.
 
